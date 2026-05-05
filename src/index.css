@@ -128,3 +128,7 @@
     @apply font-sans;
     }
 }
+
+.curved-top {
+  clip-path: ellipse(85% 100% at bottom);
+}

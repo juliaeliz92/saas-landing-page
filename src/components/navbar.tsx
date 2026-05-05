@@ -14,7 +14,7 @@ import { IconMenu, IconX } from "@tabler/icons-react"
 
 export function Navbar() {
     return (
-        <div className="flex items-center justify-between w-full gap-4">
+        <div className="flex items-center justify-between w-full gap-4 p-4">
             <NavigationMenu>
                 <NavigationMenuList>
                     <NavigationMenuLink>Wallet</NavigationMenuLink>
@@ -32,15 +32,10 @@ export function Navbar() {
                 <Drawer
                     direction="right"
                 >
-                    <DrawerTrigger>
-                        <Button
-                            variant="ghost"
-                            size="icon"
-                            className="md:hidden"
-                            aria-label="Open menu"
-                        >
+                    <DrawerTrigger 
+                        className="md:hidden"
+                        aria-label="Open menu">
                             <IconMenu />
-                        </Button>
                     </DrawerTrigger>
                     <DrawerContent className="p-4">
                         <DrawerClose>
