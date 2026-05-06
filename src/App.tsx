@@ -2,6 +2,7 @@ import Navbar from "./components/navbar"
 import Brands from "./layouts/brands"
 import Header from "./layouts/header"
 import ProductView from "./layouts/product-view"
+import Features from "./layouts/features"
 
 export function App() {
   return (
@@ -10,6 +11,7 @@ export function App() {
       <Header />
       <Brands />
       <ProductView />
+      <Features />
     </div>
   )
 }
