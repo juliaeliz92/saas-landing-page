@@ -3,6 +3,7 @@ import Brands from "./layouts/brands"
 import Header from "./layouts/header"
 import ProductView from "./layouts/product-view"
 import Features from "./layouts/features"
+import Feedbacks from "./layouts/feedbacks"
 
 export function App() {
   return (
@@ -12,6 +13,7 @@ export function App() {
       <Brands />
       <ProductView />
       <Features />
+      <Feedbacks /> 
     </div>
   )
 }
