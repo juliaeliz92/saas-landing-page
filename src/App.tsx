@@ -5,6 +5,7 @@ import ProductView from "./layouts/product-view"
 import Features from "./layouts/features"
 import Feedbacks from "./layouts/feedbacks"
 import CTA from "./layouts/cta"
+import Footer from "./layouts/footer"
 
 export function App() {
   return (
@@ -16,6 +17,7 @@ export function App() {
       <Features />
       <Feedbacks />
       <CTA />
+      <Footer />
     </div>
   )
 }

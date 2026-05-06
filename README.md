@@ -1,21 +1,47 @@
-# React + TypeScript + Vite + shadcn/ui
+# SaaS Landing Page
 
-This is a template for a new Vite project with React, TypeScript, and shadcn/ui.
+A lightweight landing page built with React, TypeScript, Vite, and shadcn/ui.
 
-## Adding components
+## Project structure
 
-To add components to your app, run the following command:
+- `src/App.tsx` — main application layout
+- `src/main.tsx` — Vite entry point
+- `src/layouts/` — page sections such as header, features, feedbacks, and footer
+- `src/components/` — reusable UI components and visual elements
+- `src/index.css` — global styling
+- `public/` — static assets and images
+
+## Run locally
+
+Install dependencies and start the development server:
 
 ```bash
-npx shadcn@latest add button
+npm install
+npm run dev
 ```
 
-This will place the ui components in the `src/components` directory.
+Open the local URL shown in the terminal to preview the landing page.
 
-## Using components
+## Build for production
 
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button"
+```bash
+npm run build
 ```
+
+## Why this tech stack
+
+This stack was chosen for SaaS and product marketing because it combines strong developer experience with fast, production-ready output:
+
+- `React` makes it easy to compose reusable UI sections like feature lists, customer quotes, and hero banners.
+- `TypeScript` adds type safety and helps keep components predictable as the page grows.
+- `Vite` provides instant feedback during development and fast builds for production launches.
+- `shadcn/ui` offers polished, accessible UI components that speed up delivery without compromising brand styling.
+
+These tools work well for industries that need polished landing pages, rapid iteration, and reliable frontend performance.
+
+## Notes
+
+- The project uses Vite for fast builds and hot module replacement.
+- UI components are organized in `src/components/` and can be reused across layouts.
+- Modify `src/layouts/feedbacks.tsx` to edit testimonial text and user feedback content.
+
