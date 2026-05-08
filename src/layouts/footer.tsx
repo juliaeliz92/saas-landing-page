@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button"
 
 export function Footer() {
     return (
-        <footer className="text-white py-6">
+        <footer id="contact" className="text-white py-6">
             <div className="container mx-auto px-5">
                 <img src="wallet-logo.png" alt="logo" className="mb-4 md:ml-12" />
                 <div className="flex flex-col md:flex-row-reverse justify-around gap ">

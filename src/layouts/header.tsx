@@ -4,13 +4,16 @@ import { DonutChart } from "@/components/pie-chart"
 export function Header() {
     return (
         <header className="w-full py-12">
-            <div className="my-6 px-12 pb-12">
-                <h1 className="text-4xl font-bold text-center">Saas Landing Page</h1>
-                <p className="text-center mt-6 text-lg text-gray-600">
-                    A modern and responsive landing page template for your SaaS product.
+            <div className="px-12 pb-12 text-center">
+                <h1 className="text-4xl font-bold">Launch a high-converting SaaS landing page in hours</h1>
+                <h3 className="text-xl text-gray-600 mt-4">
+                    Designed for founders who need polished messaging, fast delivery, and measurable results
+                </h3>
+                <p className="mt-6 text-lg text-gray-600">
+                    Convert visitors into leads with clear pricing, social proof, and a modern product showcase
                 </p>
                 <Button className="px-6 mt-8 block mx-auto" size="lg">
-                    Get Started
+                    Get a custom mockup
                 </Button>
             </div>
             <div className="relative pt-12 flex justify-center">

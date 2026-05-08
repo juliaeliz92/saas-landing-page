@@ -2,9 +2,10 @@ import UserFeedbackCarousel from "@/components/user-feedback-carousel"
 
 export function Feedbacks() {
     return (
-        <div className="container mx-auto flex justify-center py-12 my-12">
+        <section id="testimonials" className="container mx-auto flex justify-center py-12 flex-col">
+            <h2 className="text-3xl font-bold text-gray-200 mb-8 text-center">What Our Customers Say</h2>
             <UserFeedbackCarousel />
-        </div>
+        </section>
     )
 }
 

@@ -9,26 +9,19 @@ import {
     DrawerContent,
     DrawerTrigger,
 } from "@/components/ui/drawer"
-import { Button } from "@/components/ui/button"
 import { IconMenu, IconX } from "@tabler/icons-react"
+import NavbarMenuList from "./navbar-menu-list"
 
 export function Navbar() {
     return (
-        <div className="flex items-center justify-between w-full gap-4 p-4">
+        <nav className="flex items-center justify-between w-full gap-4 p-4">
             <NavigationMenu>
-                <NavigationMenuList>
+                <NavigationMenuList >
                     <NavigationMenuLink>Wallet</NavigationMenuLink>
                 </NavigationMenuList>
             </NavigationMenu>
-
             <div className="flex items-center gap-2">
-                <div className="hidden md:flex items-center gap-2">
-                    <Button className="px-4 py-2 mr-2" variant="outline">
-                        Sign Up
-                    </Button>
-                    <Button className="px-4 py-2">Login</Button>
-                </div>
-
+                <NavbarMenuList style="hidden md:flex" />
                 <Drawer
                     direction="right"
                 >
@@ -41,16 +34,11 @@ export function Navbar() {
                         <DrawerClose>
                             <IconX stroke={2} />
                         </DrawerClose>
-                        <div className="flex flex-col items-center gap-4 mt-8">
-                            <Button className="px-4 py-2 w-full" variant="outline">
-                                Sign Up
-                            </Button>
-                            <Button className="px-4 py-2 w-full">Login</Button>
-                        </div>
+                        <NavbarMenuList style="flex flex-col gap-4 w-full"/>
                     </DrawerContent>
                 </Drawer>
             </div>
-        </div>
+        </nav>
     )
 }
 

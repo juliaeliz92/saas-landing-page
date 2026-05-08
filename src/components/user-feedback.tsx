@@ -8,7 +8,7 @@ const getColor = (name: string) => {
     return colors[hash % colors.length];
 };
 
-export function UserFeedback({ feedback, avatar, name, rating}: { feedback: string; avatar: string; name: string; rating: number }) {
+export function UserFeedback({ feedback, avatar, name, title, rating }: { feedback: string; avatar: string; name: string; title: string; rating: number }) {
     return (
         <Card className={`${getColor(name)} w-full shadow-md rounded-lg`}>
             <CardContent className="flex flex-col items-center p-6 md:p-12">
@@ -17,6 +17,7 @@ export function UserFeedback({ feedback, avatar, name, rating}: { feedback: stri
                 <img src={avatar} alt={`${name}'s avatar`} className="w-10 h-10 rounded-full" />
                 <div className="flex flex-col justify-center ml-2">
                     <h3 className="text-md md:text-lg font-bold text-black">{name}</h3>
+                    <p className="text-sm md:text-md text-gray-600">{title}</p>
                     <p className="text-yellow-500">{'⭐'.repeat(rating)}</p>
                 </div>
             </div>
