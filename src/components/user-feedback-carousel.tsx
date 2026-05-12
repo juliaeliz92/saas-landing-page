@@ -12,14 +12,14 @@ import UserFeedback from "./user-feedback";
 const feedbacks = [
     {
         feedback: "This product has completely transformed our workflow: the onboarding was seamless, the support team responded within minutes, and the results were visible from day one.",
-        avatar: "avatar-1.png",
+        avatar: "avatar-1.webp",
         name: "John Doe",
         title: "CEO, TechCorp",
         rating: 5
     },
     {
         feedback: "I love how intuitive the platform feels, with helpful analytics and a clean interface that saves time every day. The landing page increased our demo requests by 30% within one week",
-        avatar: "avatar-2.png",
+        avatar: "avatar-2.webp",
         name: "Jane Smith",
         title: "Marketing Manager, InnovateX",
         rating: 5

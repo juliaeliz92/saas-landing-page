@@ -25,11 +25,11 @@ export function ProductCarousel() {
                             <CardContent>
                                 <picture>
                                     <source
-                                        srcSet={`product-image-${index + 1}-desktop.png`}
+                                        srcSet={`product-image-${index + 1}-desktop.webp`}
                                         media="(min-width: 768px)"                                       
                                     />
                                     <img
-                                        src={`product-image-${index + 1}-mobile.png`}
+                                        src={`product-image-${index + 1}-mobile.webp`}
                                         alt={`Product ${index + 1}`}
                                     />
                                 </picture>
@@ -38,8 +38,6 @@ export function ProductCarousel() {
                     </CarouselItem>
                 ))}
             </CarouselContent>
-            {/* <CarouselPrevious />
-            <CarouselNext/> */}
         </Carousel>
     )
 }

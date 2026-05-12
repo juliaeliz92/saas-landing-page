@@ -3,20 +3,20 @@ import FeatureItem from "@/components/feature-item"
 const features = [
     {
         title: "Feature One",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        imgSrc: "cards-icon-mobile.png",
+        description: "Clear product positioning that removes confusion and highlights the unique value proposition.",
+        imgSrc: "cards-icon-mobile.webp",
         imgAlt: "Feature One Image",
     },
     {
         title: "Feature Two",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        imgSrc: "coin-icon-mobile.png",
+        description: "Intuitive user interface that simplifies complex tasks and enhances the overall user experience.",
+        imgSrc: "coin-icon-mobile.webp",
         imgAlt: "Feature Two Image",
     },
     {
         title: "Feature Three",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-        imgSrc: "purse-icon-mobile.png",
+        description: "Seamless integration with popular third-party tools and services.",
+        imgSrc: "purse-icon-mobile.webp",
         imgAlt: "Feature Three Image",
     }
 ]
@@ -39,8 +39,8 @@ export function Features() {
                 </div>
                 <div className="lg:flex lg:items-center xl:justify-center">
                     <picture>
-                        <source srcSet="wallet-app-desktop.png" media="(min-width: 768px)" />
-                        <img src="wallet-app-mobile.png"
+                        <source srcSet="wallet-app-desktop.webp" media="(min-width: 768px)" />
+                        <img src="wallet-app-mobile.webp"
                             alt="Wallet App" className="mx-auto mt-6 bg-purple-100 rounded-md md:w-3/4 lg:w-[50vw] lg:h-auto xl:w-[35vw]" />
                     </picture>
                 </div>

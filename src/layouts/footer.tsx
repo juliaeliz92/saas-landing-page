@@ -4,7 +4,7 @@ export function Footer() {
     return (
         <footer id="contact" className="text-white py-6">
             <div className="container mx-auto px-5">
-                <img src="wallet-logo.png" alt="logo" className="mb-4 md:ml-12" />
+                <img src="wallet-logo.webp" alt="logo" className="mb-4 md:ml-12" />
                 <div className="flex flex-col md:flex-row-reverse justify-around gap ">
                     <div className="flex flex-col md:justify-center md:w-[30vw]">
                         <label className="block mb-4" htmlFor="email">Updates right to your inbox</label>

@@ -13,9 +13,9 @@ export function CTA() {
                 </Button>
             </div>
             <picture>
-                <source srcSet="wallet-desktop.png" />
+                <source srcSet="wallet-desktop.webp" />
                 <img
-                    src="wallet-mobile.png"
+                    src="wallet-mobile.webp"
                     alt="wallet"
                     className="mx-auto mt-12 rounded-lg shadow-lg md:mt-0"
                 />

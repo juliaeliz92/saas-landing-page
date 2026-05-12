@@ -6,8 +6,8 @@ export function Brands() {
             <div className="container mx-auto flex flex-col items-center justify-center gap-8">
                 <h2 className="text-xl text-gray-200 font-bold">Trusted by 12 startups and marketing teams. Built for B2B software, fintech, and productivity brands.</h2>
                 <picture>
-                    <source srcSet="./brands-desktop.png" media="(min-width: 768px)" />
-                    <img src="./brands-mobile.png" alt="Brands" className="object-contain" />
+                    <source srcSet="./brands-desktop.webp" media="(min-width: 768px)" />
+                    <img src="./brands-mobile.webp" alt="Brands" className="object-contain" />
                 </picture>
                 <ul className="list-none]">
                     <li className="text-gray-200 text-sm"><IconCheckFilled className="inline-block mr-2" />50% faster launch time for freelance SaaS clients</li>
