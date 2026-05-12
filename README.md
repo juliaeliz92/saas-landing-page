@@ -39,6 +39,10 @@ This stack was chosen for SaaS and product marketing because it combines strong 
 
 These tools work well for industries that need polished landing pages, rapid iteration, and reliable frontend performance.
 
+## Design
+
+The UI design was based on the Figma design: https://www.figma.com/design/VmKstmUkPxzox8s7X5tQKw/
+
 ## Notes
 
 - The project uses Vite for fast builds and hot module replacement.
